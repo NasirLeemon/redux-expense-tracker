@@ -18,13 +18,16 @@
 }
 .header,
 .footer {
-    padding: 20px;
+    padding: 40px;
     text-align: center;
-    background-color: #09483d;
+    background-color: #002525;
     color: whitesmoke;
 }
 
 .main {
+    background-image: url('/images/money.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
     flex-grow: 1;
     display: flex;
 }
@@ -41,16 +44,19 @@
 }
 
 .top_card {
-    background-color: #918bd7;
+    background-color: #0b0736;
     color: white;
     padding: 10px 20px;
     min-width: 400px;
+}
+.balance_text{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .top_card p {
     color: #d6d6d6;
     margin-bottom: 5px;
-    font-size: 0.8rem;
 }
 
 .top_card h3 {
@@ -85,7 +91,7 @@ input {
     outline: none;
     cursor: pointer;
     padding: 10px;
-    background-color: #918bd7;
+    background-color: #0b0736;
     color: white;
     transition: background-color 0.3s ease;
 }
@@ -120,11 +126,11 @@ label {
 }
 
 .income {
-    background-color: #918bd7;
+    background-color: #0b0736;
 }
 
 .expense {
-    background-color: #e6425e;
+    background-color: #f46980;
 }
 
 .transaction .right {
@@ -162,17 +168,17 @@ label {
 }
 
 .red {
-    background-color: #e6425e !important;
+    background-color: #f46980 !important;
 }
 
 .cancel_edit {
    
     margin-top: 10px;
-    background-color: #e6425e !important;
+    background-color: #f46980 !important;
 }
 
 .cancel_edit:hover {
-    background-color: #9e1028 !important;
+    background-color: #f46980 !important;
 }
 
 .second_heading {

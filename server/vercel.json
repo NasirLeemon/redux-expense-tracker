@@ -2,14 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "index.js",
+      "src": "package.json",
       "use": "@vercel/node"
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.js"
-    }
-  ]
-}
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "/server/db_transactions.json"
+      }
+    ]
+  }
+  

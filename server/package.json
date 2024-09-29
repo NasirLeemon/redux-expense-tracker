@@ -4,9 +4,9 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "start": "json-server --watch db_transactions.json --no-cors true"
-
-    },
+        "start": "json-server --watch db_transactions.json --port 3001"
+      },
+      
     "dependencies": {
         "json-server": "^0.17.0"
     },

@@ -66,8 +66,8 @@ const Form = () => {
         },
       })
     );
-    reset()
-    setEditMode(false)
+    reset();
+    setEditMode(false);
   };
 
   return (
